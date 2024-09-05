@@ -21,13 +21,6 @@ layers:
     name: 'SSP2-4.5, Change to winter average air temperature'
     type: raster
     description: 'Difference in projected winter (January, February, March) average air temperature, relative to a historical timeframe between 1995 and 2014. Outputs represent the median of 23 member ensembles from CMIP6 (SSP 2-4.5) with downscaling performed by NASA Earth Exchange'
-    sourceParams:
-      resampling: bilinear
-      bidx: 1
-      colormap_name: rdbu_r
-      rescale:
-        - -5.5
-        - 5.5
     compare:
       datasetId: CMIP-winter-median-ta
       layerId: CMIP245-winter-median-ta
